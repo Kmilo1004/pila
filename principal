@@ -1,0 +1,12 @@
+#include <iostream>
+#include "pilaint.h"
+
+using namespace std;
+
+int main(){
+	pilaint pil;
+	pil.insertar(9);
+	pil.insertar(3);
+	pil.mostar();
+
+}
