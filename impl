@@ -1,0 +1,19 @@
+
+#include <iostream>
+#include "pilaint.h"
+
+using namespace std;
+
+void pilaint::insertar(int x){
+	tope++;
+	pila[tope]=x;
+}
+void pilaint::eliminar(){
+	tope--;
+}
+
+void pilaint::mostar(){
+	for(int i=tope;i>=0;i--){
+		cout<<""<<pila[i]<<"\n";
+	}
+}
