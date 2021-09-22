@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+class pilaint{
+	int pila[1000];
+	int tope=-1;
+	public:
+		void insertar(int x);
+		void eliminar();
+		int obtener();
+		bool pilavacia();
+		void mostar();
+		bool buscar(int x);
+		int cantidad();
+		
+		
+};
